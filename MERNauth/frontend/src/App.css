@@ -1,0 +1,75 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto:wght@300&display=swap");
+.maincolor {
+  background-color: #f0c35a;
+}
+.cardcolor {
+  background-color: #090e19;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.rowColor {
+  background-color: #191e2a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: 1.5rem; */
+  margin-bottom: 1rem;
+  color: white;
+  padding: 10px;
+}
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-bottom: 10px; */
+  padding: 20px;
+}
+
+.d-flex li {
+  margin: 0;
+}
+
+/* Adjust this as needed */
+.d-flex li:first-child {
+  margin-right: auto; /* Push the first paragraph to the left */
+}
+
+.d-flex li:last-child {
+  margin-left: auto; /* Push the last paragraph to the right */
+}
+.text-white {
+  color: white;
+}
+.button {
+  background-color: #f0c35a;
+  border: none;
+}
+
+/* Create a custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent; /* You can set your desired background color */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; /* You can set your desired handle color */
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Change color on hover */
+}
